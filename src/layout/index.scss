@@ -1,0 +1,16 @@
+.layout-container {
+  height: 100vh;
+  background: #f8fafe 0% 0% no-repeat padding-box;
+  .content-container {
+    // height: calc(100% - 65px);
+  }
+  .header {
+    height: 65px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+  .footer {
+  }
+}

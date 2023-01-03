@@ -1,0 +1,65 @@
+.subscribe-section {
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 0px;
+  position: relative;
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff70;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .subscribe-box {
+    margin-bottom: 30px;
+    input {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 0px;
+      margin-right: 20px;
+      width: 260px;
+      color: #ffffff50;
+    }
+  }
+  .top-left {
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .bottom-right {
+    background: #381ddb;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribe-section {
+    padding: 120px 20px;
+    .subscribe-box {
+      input {
+        width: unset;
+      }
+    }
+  }
+}

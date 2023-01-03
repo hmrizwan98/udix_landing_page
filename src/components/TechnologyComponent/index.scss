@@ -1,0 +1,52 @@
+.technology-component {
+  padding: 140px 0px;
+  .marketing-services {
+    h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      color: #222222;
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #22222270;
+      margin: 0px;
+      margin-bottom: 80px;
+    }
+    .slider-arrow {
+      display: flex;
+      align-items: center;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      color: #381ddb;
+      svg {
+        margin-left: 10px;
+        transform: rotate(275deg);
+        path {
+          fill: #381ddb;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .technology-component {
+    .wrapperImage {
+      padding: 0px 20px;
+    }
+    .marketing-services {
+      p {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

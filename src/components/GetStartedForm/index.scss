@@ -1,0 +1,49 @@
+.get-started-form {
+  max-width: 470px;
+  background: #ffffff;
+  box-shadow: 0px 20px 100px rgba(34, 34, 34, 0.15);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 60px;
+    h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      color: #222222;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #22222250;
+      span {
+        color: #381ddb;
+      }
+    }
+  }
+  .img-section {
+    position: relative;
+    svg {
+      position: absolute;
+      bottom: 63px;
+      right: -8px;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .get-started-form {
+    .form-content {
+      padding: 30px 30px 0px 5px;
+    }
+  }
+}

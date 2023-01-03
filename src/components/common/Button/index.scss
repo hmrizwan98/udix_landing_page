@@ -1,0 +1,24 @@
+button {
+  padding: 14px 28px;
+  width: fit-content;
+  border: 1px solid #381ddb;
+  color: #381ddb;
+  background: transparent;
+  cursor: pointer;
+}
+.fill {
+  background: #381ddb;
+  color: white;
+  border: none;
+  box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+}
+.transparent {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+}
+.subscribe {
+  background: #fc5252;
+  color: white;
+  border: none;
+}

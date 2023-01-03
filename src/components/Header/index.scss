@@ -1,0 +1,46 @@
+.header-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-links {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 86px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+        list-style-type: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-right: 40px;
+        &:hover {
+          color: #ffa3a3;
+        }
+        &:first-child {
+          color: #ffa3a3;
+        }
+      }
+    }
+  }
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    .burger {
+      width: 40px;
+      line {
+        stroke: white;
+      }
+    }
+  }
+}
