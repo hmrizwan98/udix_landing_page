@@ -7,9 +7,10 @@ const UsableRow = ({
   gridGapClass,
   imageClass,
   image,
+  className,
 }) => {
   return (
-    <ContainerWrapper>
+    <ContainerWrapper className={`${className}`}>
       <div className={`iAmUseableRow ${gridGapClass}`}>
         <div className="wrapperImage">
           <img src={image} alt="" className={`${imageClass}`} />

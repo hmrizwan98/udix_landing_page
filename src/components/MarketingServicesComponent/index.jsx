@@ -11,7 +11,7 @@ const MarketingServicesComponent = ({
 }) => {
   return (
     <div className="marketing-services-component">
-      <UsableRow image={contentImage}>
+      <UsableRow image={contentImage} className="pseduelement">
         <div className="marketing-services">
           {udix}
           <h1>{heading}</h1>

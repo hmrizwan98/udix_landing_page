@@ -1,5 +1,6 @@
 .solution-provide {
   max-width: 970px;
+  position: relative;
   .we-provide-solution {
     h1 {
       font-family: 'Montserrat';
@@ -24,12 +25,43 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    position: relative;
+    &::before {
+      position: absolute;
+      left: -22px;
+      background: red;
+      height: 100px;
+      width: 140px;
+      filter: blur(11px);
+    }
+  }
+  &::before {
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #ffa3a3;
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+  }
+  &::after {
+    display: inline-block;
+    content: '';
+    border-top: 0.5px solid #ffa3a3;
+    width: 100%;
+    margin-top: 140px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .solution-provide {
     padding: 20px;
+    &::before {
+      bottom: 17px;
+    }
   }
 }
 @media screen and (max-width: 540px) {

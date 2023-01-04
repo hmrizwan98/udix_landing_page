@@ -30,6 +30,15 @@
       //   height: 70px;
       // }
     }
+    position: relative;
+    &::after {
+      position: absolute;
+      left: -22px;
+      background: red;
+      height: 100px;
+      width: 140px;
+      filter: blur(11px);
+    }
   }
   .blur-box {
     position: absolute;

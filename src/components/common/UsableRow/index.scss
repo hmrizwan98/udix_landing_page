@@ -9,7 +9,7 @@
   }
   .wrapperImage {
     flex: 1;
-    min-width: 300px;
+    min-width: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
     grid-template-columns: 1fr;
     .wrapperImage {
       img {
-        width: unset;
+        // width: unset;
       }
     }
   }
