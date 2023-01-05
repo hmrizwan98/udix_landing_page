@@ -60,3 +60,11 @@
     }
   }
 }
+
+@media screen and (max-width: 540px) {
+  .header-grid {
+    .nav-drop {
+      width: 90%;
+    }
+  }
+}
