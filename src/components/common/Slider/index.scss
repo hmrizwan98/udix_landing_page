@@ -47,6 +47,7 @@
     height: 100px;
     width: 140px;
     filter: blur(11px);
+    z-index: 2;
   }
   .blur-box-right {
     position: absolute;
